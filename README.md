@@ -44,7 +44,7 @@
 5.	Using a tool, create a flowchart demonstrating the widget's operation – describe the use cases, from the point a user enters the page.
    
             Link to LucidChart flowchart: https://lucid.app/lucidchart/4b0117d5-fe4c-40ca-b90f-d51cad91b38b/edit?viewport_loc=-1441%2C-120%2C936%2C1029%2C0_0&invitationId=inv_5301e3ed-90a4-48e4-8587-7802b19a9e0e
-            Link to PDF flowchart : https://1drv.ms/b/s!AvaBMf88ta73gQkGVHlz2xqVFi-3?e=3Cuuss
+            Link to PDF flowchart : https://1drv.ms/b/s!AvaBMf88ta73gQrB-1He8A9IZwq3?e=MDT9fV
 
 
 6.	Design a mockup for the data that needs to be received from the server – sometimes when we work in a team, we need to use mock data in order to continue, explain how you would mock the in order to make this widget fully functional even if the server is not ready, no need to write that in the angular application, just state how you would do that and what tools if any you would use for that.
