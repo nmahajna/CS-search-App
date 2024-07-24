@@ -3,17 +3,14 @@
          1. git clone this repo
    
          2. Client:
-                  cd .\CS-search-App\
-                  cd .\client\
-                  cd .\searchApp\
+                  cd .\CS-search-App\client\searchApp
                   npm install
                   ng build
                   ng serve
 
 
         3.  Server:
-               cd .\CS-search-App\       
-               cd .\server\
+               cd .\CS-search-App\server
                npm install
                node index.js 
 
