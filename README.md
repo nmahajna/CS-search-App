@@ -1,3 +1,23 @@
+0. Installation:
+   
+         1. git clone this repo
+   
+         2. Client:
+                  cd .\CS-search-App\
+                  cd .\client\
+                  cd .\searchApp\
+                  npm install
+                  ng build
+                  ng serve
+
+
+        3.  Server:
+               cd .\CS-search-App\       
+               cd .\server\
+               npm install
+               node index.js 
+
+
 1.	Which plugins or extensions did you use, explain why in a line or two, no need to be specific
       1.	 PrimeNG: UI component library 
       2.	 PrimeIcons: Icon library for PrimeNG.
