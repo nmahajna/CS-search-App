@@ -1,0 +1,65 @@
+.search-widget {
+  width: 100%;
+  min-width: 320px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.search-bar {
+  margin-bottom: 10px;
+}
+
+.custom-selected-nodes {
+  font-weight: bold;
+}
+
+.connection {
+  margin-left: 20px;
+  border-radius: 10px;
+  max-height: 22px;
+  display: inline-flex;
+
+}
+
+.connection-stable {
+  background-color: green;
+  color: white;
+}
+
+.connection-unstable {
+  background-color: orange;
+  color: white;
+}
+
+.connection-disconnected {
+  background-color: red;
+  color: white;
+}
+
+.label-container{
+  display: inline-block;
+  
+}
+
+.icon-conn {
+  font-size: 0.7rem;
+  margin-right: 10px;
+  margin-left: 5px;
+  align-content: center;
+
+}
+.label-conn {
+  font-size: 0.8rem;
+  margin-right: 8px;
+  text-transform: capitalize;
+}
+
+
+::ng-deep .p-treenode-children {
+  max-height: 350px;
+  overflow: scroll;
+}
+
+

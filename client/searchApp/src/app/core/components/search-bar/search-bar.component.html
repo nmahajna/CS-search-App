@@ -1,0 +1,15 @@
+<div class="search-widget">
+
+    <p-tree [value]="filteredNodes"     [filter]="true"     [filterBy]="'label'" [filterMode]="'strict'" [(selection)]="selectedNodes" selectionMode="checkbox" >
+      <ng-template let-node pTemplate="default">
+        <span class="label-container">
+            <div>{{ node.label }}</div>
+            <div><small *ngIf="node.data &&  node.data.type && (node.data.type === 'camera1' || node.data.type === 'camera2') ">{{ node.data.type }}</small></div>
+        </span>
+          <span *ngIf="node.data && (node.data.type === 'camera1' || node.data.type === 'camera2') && node.data.connectionStatus" class="connection" [ngClass]="getConnectionClass(node.data.connectionStatus)">
+            <span class="pi icon-conn pi-arrow-right-arrow-left"></span>
+            <span class="label-conn">{{ node.data.connectionStatus }}</span>
+          </span>
+      </ng-template>
+    </p-tree>
+  </div>
